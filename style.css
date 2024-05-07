@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #491e84;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 300px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-left: 50px;
+}
+
+.menu li:first-child {
+    margin-left: 0;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: red;
+}
+
+#logo {
+    width: 220px;
+    height: auto;
+}
+
+.perfil-foto {
+    width: 200px;
+    height: 200px;
+    background-color: #ddd; 
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.perfil-info {
+    text-align: center;
+}
+
+.title-container {
+    text-align: center; 
+    font-family:Arial, sans-serif;
+}
+
+.profile {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile h1 {
+  text-align: center;
+  color: #333;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-container img {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.form-container{
+    text-align: center;
+    font-size: 14px;
+}
+
+#avatar{
+    width: 100px;
+}
+
+#logo_projeto{
+    width: 290px;
+}
+
+h3{
+    text-align: center;
+}
