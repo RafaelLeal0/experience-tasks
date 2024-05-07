@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desenvolvendo um projeto WEB com acessibilidade e SEO Google">
+    <meta name="keywords" content="HTML, CSS, GOOGLE, WEB, SENAI">
+    <link rel="stylesheet" href="styless.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- rafael gustavo leal dos santos -->
+    <header>
+    </header>
+    <div class="form-container">
+        <img id="imagem" src='logo_projeto.png' alt="Foto da logo do projeto"/>
+        <h2>LOGIN</h2>
+        <form id="loginForm" action="home.html" method="POST" onsubmit="return validarForm()">
+            <div class="input-group">
+                <div class="form-group">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="usuario" name="usuario" placeholder="Digite o usuário" required>
+                </div>                           
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                </div>
+            </div>          
+            <input type="submit" value="Entrar">
+            <div class="link-container">
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
